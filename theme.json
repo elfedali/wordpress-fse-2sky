@@ -1,0 +1,71 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "primary",
+                    "color": "#0d6efd"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#6c757d"
+                },
+                {
+                    "slug": "Success",
+                    "color": "#198754"
+                },
+                {
+                    "slug": "Info",
+                    "color": "#0dcaf0"
+                },
+                {
+                    "slug": "Warning",
+                    "color": "#dc3545"
+                },
+                {
+                    "slug": "Light",
+                    "color": "#f8f9fa"
+                },
+                {
+                    "slug": "Dark",
+                    "color": "#212529"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "840px",
+            "wideSize": "1100px"
+        },
+        "spacing": {
+            "spacingScale": {
+                "steps": 7
+            },
+            "spacingSizes": [],
+            "units": [
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw"
+            ]
+        },
+        "typography": {
+            "dropCap": false,
+            "fluid": true,
+            "fontFamilies": [
+                {
+                    "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                    "slug": "system-ui",
+                    "name": "System UI"
+                },
+                {
+                    "fontFamily": "Helvetica Neue, Helvetica, Arial, sans-serif",
+                    "slug": "helvetica-arial",
+                    "name": "Helvetica or Arial"
+                }
+            ]
+        }
+    }
+}
